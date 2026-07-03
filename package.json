@@ -1,0 +1,17 @@
+{
+  "name": "excel-to-md",
+  "version": "1.0.0",
+  "description": "Convert multi-sheet Excel (with images + textbox annotations) to Markdown",
+  "type": "module",
+  "bin": { "excel-to-md": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "adm-zip": "^0.5.16",
+    "fast-xml-parser": "^4.5.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "pdf-to-png-converter": "^3.6.0"
+  }
+}
